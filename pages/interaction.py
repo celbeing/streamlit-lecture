@@ -8,7 +8,7 @@ with col2:
     st.link_button("티스토리","https://celbeing.tistory.com/",)
     st.link_button("백준","https://www.acmicpc.net/user/kimsd1983")
     st.link_button("atCoder","https://atcoder.jp/users/kimsd1983")
-name = st.text_input("누구세요?")
+name = st.text_input("누구세요?", value = "↑")
 
 if len(name) > 0:
     if name in ["Jerry", "jerry", "JERRY", "제리"]:
